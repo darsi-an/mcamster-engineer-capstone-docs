@@ -1,0 +1,57 @@
+\documentclass[11pt,english]{article}
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+
+\title{Capstone Project Goals}
+\author{
+  Thomas Mullen - 0014036837 \\
+\and
+ Darsi Anandarajah - 001226159 \\
+\and
+ Justin Licari - 001313781 \\
+\and
+ Eliad Moosavi - 001319311 \\
+\and
+ Richard Zhang - 001450206
+}
+
+\date{September 30th 2018}
+
+\begin{document}
+
+\maketitle
+\section{Background}
+Carbon is the design system for IBM Cloud products. It contains styles, components, and guidelines used for creating user interfaces. Our project focuses on design and implementation of a subset of Carbon Design Components - Carbon Charts, which features a library of charts built with D3 that update in real time with animations. 
+
+\section{Goals of The Project}
+
+The goal of our project is to extend Carbon Charts and make it more accessible for users. We hope to do this by creating additional charts and adding features to increase usability, accessibility, improve aesthetics,  and optimize components. The specific features we will be working on are discussed in section 2.
+
+\subsection{Service Goals}
+\begin{itemize}
+\item Add screen reader support for improved accessibility. All charts should conform to the Web Content Accessibility Guidelines (WCAG).
+\item Right-To-Left reading support. This will increase accessibility by adding compatibility for right to left languages like Arabic.
+\item Add Bubble, Area and Combo chart types. 
+\item Threshold underlay support for all axis charts.
+\item All new contributions should conform to IBM Carbon's code style. This will be automatically verified by the official IBM Carbon linter.
+\item Zoom and scroll functionality. These features will allow users to view and analyze chart data in additional ways.
+\item Save charts to image. This will allow users to easily save their chart locally.
+\item Bundle size optimization. The final shipped code bundle should have a minimal memory footprint.
+\item Improve the development operations pipeline. Automated test suites and faster build systems should be implemented.
+\item Implement a micro-controller receiving input from different sensors. The data is then displayed by the charts. 
+\end{itemize}
+
+\subsection{Revenue Goals}
+Due to the free and open-source nature of this project, no revenue goals have been set.
+
+\subsection{Legal Goals}
+\begin{itemize}
+\item All dependencies and libraries used should be compatible with the Apache License 2.0.
+\item All contributor agreement documents must be read and signed by all members of this project. All conduct must conform to these agreements.
+\end{itemize}
+
+
+https://www.w3.org/WAI/standards-guidelines/wcag/
+\end{document}
+
+
